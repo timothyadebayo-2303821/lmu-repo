@@ -7,14 +7,11 @@ public class question4{
         Scanner input = new Scanner(System.in);
         int [] num = new int[10];
         for (int i = 0; i<num.length;i++){
-            System.out.println("Enter the values for index "+ i);
+            System.out.print("Enter value for index: "+ (i+1) +" ");
             num[i] = input.nextInt();
 
         }
-        // for loop
-        for(int i=0; i< num.length;i++){
-            System.out.print(num[i]+"\t");
-        }
+
         //for each loop
         System.out.println("\n");
         for (int i : num) {

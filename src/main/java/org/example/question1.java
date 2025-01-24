@@ -3,7 +3,7 @@ package org.example;
 public class question1 {
     public static void main(String [] args){
 
-        //single for loop
+        //Single for loop
         System.out.println("Single loop: Nigerian Flag\n");
 
         String Nigerian_Flag = "* * * * = = = = * * * *";

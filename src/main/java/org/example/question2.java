@@ -3,9 +3,10 @@ package org.example;
 public class question2 {
     public static void main(String[]args){
 
+
+        //Single Loop
         String flag1 = "* * * * = = = = = =";
         String flag2 = "= = = = = = = = = =";
-
 
         System.out.println("Single loop: Flag");
         for (int i = 0;i<6;i++){
@@ -15,6 +16,8 @@ public class question2 {
                 System.out.println(flag2);
             }
         }
+
+        //Nested Loop
         System.out.println("\nNested loop: Flag");
         char flag = '*';
         for (int i = 0;i<6;i++){
